@@ -1,0 +1,13 @@
+prefix=/opt/source/logodetect_service/src/package
+exec_prefix=/opt/source/logodetect_service/src/package
+libdir=/opt/source/logodetect_service/src/package/lib
+sharedlibdir=/opt/source/logodetect_service/src/package/lib
+includedir=/opt/source/logodetect_service/src/package/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
